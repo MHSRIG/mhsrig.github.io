@@ -4,12 +4,41 @@ body {
   background: #f4f4f4; 
   color: #222; 
 } 
- header { 
-   background: #f2b433; 
-   color: white; 
-   padding: 60px 20px; 
-   text-align: center; 
- } 
+header {
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("images/hero.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: white;
+
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
 main { 
   max-width: 900px; 
   margin: auto; padding: 20px; 
