@@ -127,12 +127,17 @@ nav {
   gap: 12px;
 }
 
-/* IMAGE logo ONLY */
+/* IMAGE logo ONLY - NEXT TO THE TOP LEFT TEXT!!!*/
 .nav-logo {
   width: 45px;
   height: 45px;
   object-fit: contain;
 }
+
+.hero-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 
 /* SITE NAME text */
 .site-name {
